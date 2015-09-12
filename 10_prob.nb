@@ -1,0 +1,70 @@
+(* Content-type: application/mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 7.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       145,          7]
+NotebookDataLength[      1712,         61]
+NotebookOptionsPosition[      1390,         45]
+NotebookOutlinePosition[      1733,         60]
+CellTagsIndexPosition[      1690,         57]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"a", "=", " ", "0"}], ";", 
+  RowBox[{"total", " ", "=", " ", "0"}], ";", 
+  RowBox[{"While", "[", 
+   RowBox[{
+    RowBox[{"a", "<", "2000000"}], ",", 
+    RowBox[{"If", "[", 
+     RowBox[{
+      RowBox[{"PrimeQ", "[", 
+       RowBox[{"a", "++"}], "]"}], ",", 
+      RowBox[{"total", " ", "+=", " ", "a"}]}], "]"}]}], "]"}], ";", 
+  "total"}]], "Input",
+ CellChangeTimes->{{3.5678862720064096`*^9, 3.567886350625907*^9}, {
+   3.567886388940098*^9, 3.567886498267351*^9}, {3.57514392233515*^9, 
+   3.575143938339065*^9}, {3.5751440735738*^9, 3.575144074465851*^9}, {
+   3.5751441165172563`*^9, 3.575144120236469*^9}, {3.575144158646666*^9, 
+   3.575144160402766*^9}, 3.575144199958029*^9}],
+
+Cell[BoxData["142913977855"], "Output",
+ CellChangeTimes->{3.575144205549349*^9}]
+}, Open  ]]
+},
+WindowSize->{944, 955},
+WindowMargins->{{Automatic, 0}, {Automatic, 0}},
+FrontEndVersion->"7.0 for Microsoft Windows (64-bit) (November 10, 2008)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[567, 22, 723, 17, 31, "Input"],
+Cell[1293, 41, 81, 1, 30, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

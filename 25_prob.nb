@@ -1,0 +1,70 @@
+(* Content-type: application/mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 7.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       145,          7]
+NotebookDataLength[      1790,         61]
+NotebookOptionsPosition[      1466,         45]
+NotebookOutlinePosition[      1810,         60]
+CellTagsIndexPosition[      1767,         57]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"fibs", " ", "=", " ", "0"}], ";", " ", 
+  RowBox[{"While", "[", 
+   RowBox[{
+    RowBox[{"StringLength", "[", 
+     RowBox[{"IntegerString", "[", 
+      RowBox[{"Fibonacci", "[", 
+       RowBox[{"++", "fibs"}], "]"}], "]"}], "]"}], "<", "1000"}], "]"}], ";",
+   "fibs"}]], "Input",
+ CellChangeTimes->{{3.5751255694675903`*^9, 3.575125718041088*^9}, {
+  3.57512576756192*^9, 3.575125777959515*^9}, {3.575125830099498*^9, 
+  3.575125837693932*^9}, {3.575125889727908*^9, 3.5751258900759277`*^9}, {
+  3.5751261790604568`*^9, 3.5751262123763623`*^9}, {3.5751262581029778`*^9, 
+  3.5751263192084727`*^9}}],
+
+Cell[BoxData["4782"], "Output",
+ CellChangeTimes->{
+  3.575125838487977*^9, 3.575125900179506*^9, {3.57512620656703*^9, 
+   3.575126212824388*^9}, {3.575126259996086*^9, 3.5751262841624684`*^9}, {
+   3.575126315606267*^9, 3.575126336276449*^9}}]
+}, Open  ]]
+},
+WindowSize->{944, 1012},
+WindowMargins->{{0, Automatic}, {0, Automatic}},
+FrontEndVersion->"7.0 for Microsoft Windows (64-bit) (November 10, 2008)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[567, 22, 635, 14, 31, "Input"],
+Cell[1205, 38, 245, 4, 30, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
